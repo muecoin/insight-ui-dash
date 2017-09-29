@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui-dash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
-  "version": "0.4.3",
-  "repository": "git://github.com/dashpay/insight-ui-dash.git",
+  "name": "insight-ui-mue",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the MonetaryUnit network and build your own services with it.",
+  "version": "0.1.0",
+  "repository": "git://github.com/muecoin/insight-ui-mue.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -23,22 +23,29 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "Al Z",
+      "email": "awz@empirictechs.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashpay/insight-ui-dash/issues"
+    "url": "https://github.com/muecoin/insight-ui-mue/issues"
   },
-  "homepage": "https://github.com/dashpay/insight-ui-dash",
+  "homepage": "https://github.com/muecoin/insight-ui-mue",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
     "dash",
-    "bitcore-dash",
-    "front-end"
+    "bitcore-mue",
+    "front-end",
+    "bitcore-mue",
+    "monetaryunit",
+    "mue"
   ],
-  "bitcoreNode": "bitcore-node-dash",
+  "bitcoreNode": "bitcore-node-mue",
   "dependencies": {
   },
   "devDependencies": {
