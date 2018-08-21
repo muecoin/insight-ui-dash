@@ -23,7 +23,7 @@ angular.module('insight.currency').controller('CurrencyController',
         } else if (this.symbol === 'mMUE') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'bits') {
+        } else if (this.symbol === 'uMUE') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else { // assumes symbol is MUE
