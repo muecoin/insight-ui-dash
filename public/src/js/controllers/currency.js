@@ -23,12 +23,12 @@ angular.module('insight.currency').controller('CurrencyController',
         } else if (this.symbol === 'mMUE') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'uMUE') {
+        } else if (this.symbol === 'bits') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
-        } else {
+        } else { // assumes symbol is MUE
           this.factor = 1;
-          response = value;
+          response = _roundFloat((value * this.factor), 8);
         }
         // prevent sci notation
         if (response < 1e-7) response=response.toFixed(8);
@@ -61,4 +61,4 @@ angular.module('insight.currency').controller('CurrencyController',
       $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
     });
 
-  });
+});
